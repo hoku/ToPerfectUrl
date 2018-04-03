@@ -21,7 +21,7 @@ class ToPerfectUrl {
             if ($parts[$i] !== '..') { continue; }
 
             array_splice($parts, $i-1, 2);
-            $i = 4;
+            $i = 3;
         }
 
         $afterUrl = implode('/', $parts);

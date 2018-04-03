@@ -50,7 +50,7 @@ ToPerfectUrl.php をインクルードすれば使えます。
     ["before"]=>
     string(36) "http://example.com/aaa/bbb/../../ccc"
     ["after"]=>
-    string(26) "http://example.com/aaa/ccc"
+    string(22) "http://example.com/ccc"
     
     ["before"]=>
     string(40) "http://example.com/aaa/bbb/../ccc/../ddd"
